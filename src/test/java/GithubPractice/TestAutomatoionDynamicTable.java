@@ -23,8 +23,7 @@ public static void main(String[] args) {
    WebElement browser = driver.findElement(By.xpath("//table[@id='taskTable']/tbody/tr/td[text()='"+browsername+"']"));
    String cpu = driver.findElement(By.xpath("//table[@id='taskTable']/tbody/tr/td[text()='"+browsername+"']/following-sibling::td[contains(text(),'%')]")).getText();
    System.out.println(cpu);
-    
-	
-	
+   
+   
 }
 }
